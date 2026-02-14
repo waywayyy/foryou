@@ -1,23 +1,23 @@
 const CONFIG = {
-    mainQuestion: "Will you be my Valentine?!",
-    subQuestion: "Please say yes ",
-    yesButton: "YES",
-    noButton: "NO",
-    noEscapeTexts: ["Eits, ga bisa😝", "Hehe, coba lagi 😜", "Yaudah deh, aku anggap YES ya! 💕"],
-    confirmTitle: "YEAAAY! Kamu Beneran Mau 💗",
+    mainQuestion: "Mau kah kamu menerima maafku karna telat mengucapkan hari kasih sayang ini?🥹",
+    subQuestion: "aku mohon, kamu pilih iya ",
+    yesButton: "IYA",
+    noButton: "TIDAK",
+    noEscapeTexts: ["Eitss, nda bisa😝", "Hihi, dibilangin ngeyel si😜", "Yaudah deh, aku anggap YES ya!❤️"],
+    confirmTitle: "YEAAAY! MAUU, makasih ya😽❤️",
     confirmText: "Mulai dari sekarang kamu resmi jadi…",
-    badgeText: "My Valentine",
+    badgeText: "KESAYANGAN AKU",
     nextButton: "Lanjut ",
     repeatButton: "Ulangi pertanyaan",
-    flowerTitle: "Ini kado spesial buat kamu ",
+    flowerTitle: "Ini HADIAH spesial buat kamu ",
     takeBouquetButton: "Terima hadiahnya ",
-    bouquetMessage: "Yeay! Udah jadi milik kamu 💕",
-    nextFlowerButton: "Next ",
-    collageTitle: "My Beautiful You",
-    collageSubtitle: "Sejak kamu hadir, hal sederhana pun terasa istimewa. Happy Valentine, my favorite person. 💕",
+    bouquetMessage: "Yeay! Hadiah ini udh resmi milik kamu❤️",
+    nextFlowerButton: "lanjut ",
+    collageTitle: "Selamat hari kasih sayang ya, sayangku 😽❤️",
+    collageSubtitle: "Sejak kamu hadir, duniaku jadi lebih berwarna setiap harinya. Selamat Hari Kasih Sayang My favorite person❤️",
     nextCollageButton: "Satu halaman lagi… ",
-    finalTitle: "Happy Valentine, My Love 💞",
-    finalMessage: `Makasih ya sudah hadir dan bikin hariku selalu terasa cukup. Kamu adalah alasan kenapa senyum itu mudah muncul. Semoga hari harimu selalu penuh kehangatan dan kebahagiaan. Aku selalu ada untukmu. Happy Valentine 💕`,
+    finalTitle: "Happy Valentine, Cintakuu ❤️",
+    finalMessage: `Makasih ya udah hadir dan bikin hariku selalu terasa cukup. Kamu adalah alasan kenapa hariku harus selalu ceria. I know, aku bukan cinta pertama kamu tapi yang selalu aku bilang, aku mau kalo diri aku bisa menjadi cinta yang terakhir buat kamu dan juga selalu bisa membuat kamu merasa cukup dengan aku. Semoga harimu selalu penuh dengan kebahagiaan dan kehangatan disetiap waktu. Aku akan selalu mencoba jadi manusia terbaik yg hadir dihidup kamu dari yang sebelum-sebelumnya. Meskipun saat ini kita berjauhan, aku juga akan mencoba untuk selalu ada buat kamu. Semoga kita selalu bisa bersama selamanya ya❤️. Sekali lagi, Selamat Hari Kasih Sayang My loveee, Emmuachhh💋❤️`,
     restartButton: "Restart ",
     copyButton: "Copy Message ",
     copySuccess: "Pesan berhasil dicopy! "
@@ -367,4 +367,5 @@ document.addEventListener('DOMContentLoaded', () => {
     new ParticleSystem();
     initMouseTrail();
 });
+
 
