@@ -1,8 +1,8 @@
 const CONFIG = {
-    mainQuestion: "Mau kah kamu menerima maafku karna telat mengucapkan hari kasih sayang ini?🥺🥺",
-    subQuestion: "aku mohon, kamu pilih iya ",
-    yesButton: "IYA",
-    noButton: "TIDAK",
+    mainQuestion: "Mau kah kamu menerima maafku karna telat mengucapkan hari kasih sayang ini?:)",
+    subQuestion: "aku mohon, kamu pilih YA ",
+    yesButton: "YA",
+    noButton: "GAK",
     noEscapeTexts: ["Eitss, nda bisa😝", "Hihi, dibilangin ngeyel si😜", "Yaudah deh, aku anggap YES ya!❤️"],
     confirmTitle: "YEAAAY! MAUU, makasih ya😽❤️",
     confirmText: "Mulai dari sekarang kamu resmi jadi…",
@@ -367,6 +367,7 @@ document.addEventListener('DOMContentLoaded', () => {
     new ParticleSystem();
     initMouseTrail();
 });
+
 
 
 
