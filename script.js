@@ -3,18 +3,18 @@ const CONFIG = {
     subQuestion: "aku mohon, kamu pilih YA ",
     yesButton: "YA",
     noButton: "GAK",
-    noEscapeTexts: ["Eitss, nda bisa😝", "Hihi, dibilangin ngeyel si😜", "Yaudah deh, aku anggap YES ya!❤️"],
-    confirmTitle: "YEAAAY! MAUU, makasih ya😽❤️",
+    noEscapeTexts: ["Eitss, nda bisa 😝", "Hihi, masih ngeyel juga 😜", "Yaudah deh, aku anggap kamu pilih YA! ❤️"],
+    confirmTitle: "YEAAAY! kamu mau, makasih ya 💋",
     confirmText: "Mulai dari sekarang kamu resmi jadi…",
     badgeText: "KESAYANGAN AKU",
     nextButton: "Lanjut ",
     repeatButton: "Ulangi pertanyaan",
     flowerTitle: "Ini HADIAH spesial buat kamu ",
     takeBouquetButton: "Terima hadiahnya ",
-    bouquetMessage: "Yeay! Hadiah ini udh resmi milik kamu❤️",
+    bouquetMessage: "Yeay! Hadiah ini udh resmi milik kamu ❤️",
     nextFlowerButton: "lanjut ",
-    collageTitle: "Selamat hari kasih sayang ya, sayangku 😽❤️",
-    collageSubtitle: "Sejak kamu hadir, duniaku jadi lebih berwarna setiap harinya. Selamat Hari Kasih Sayang My favorite person❤️",
+    collageTitle: "Selamat hari kasih sayang, kesayanganku ❤️",
+    collageSubtitle: "Sejak kamu hadir, duniaku jadi lebih berwarna setiap harinya. Selamat Hari Kasih Sayang My favorite person ❤️",
     nextCollageButton: "Satu halaman lagi… ",
     finalTitle: "Happy Valentine, Cintakuu ❤️",
     finalMessage: `Makasih ya udah hadir dan bikin hariku selalu terasa cukup. Kamu adalah alasan kenapa hariku harus selalu ceria. I know, aku bukan cinta pertama kamu tapi yang selalu aku bilang, aku mau kalo diri aku bisa menjadi cinta yang terakhir buat kamu dan juga selalu bisa membuat kamu merasa cukup dengan aku. Semoga harimu selalu penuh dengan kebahagiaan dan kehangatan disetiap waktu. Aku akan selalu mencoba jadi manusia terbaik yg hadir dihidup kamu dari yang sebelum-sebelumnya. Meskipun saat ini kita berjauhan, aku juga akan mencoba untuk selalu ada buat kamu. Semoga kita selalu bisa bersama selamanya ya❤️. Sekali lagi, Selamat Hari Kasih Sayang My loveee, Emmuachhh💋❤️`,
@@ -367,6 +367,7 @@ document.addEventListener('DOMContentLoaded', () => {
     new ParticleSystem();
     initMouseTrail();
 });
+
 
 
 
