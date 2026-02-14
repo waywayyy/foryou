@@ -1,12 +1,12 @@
 const CONFIG = {
-    mainQuestion: "Mau kah kamu menerima maafku karna telat mengucapkan hari kasih sayang ini?🥹",
+    mainQuestion: "Mau kah kamu menerima maafku karna telat mengucapkan hari kasih sayang ini?🥺🥺",
     subQuestion: "aku mohon, kamu pilih iya ",
     yesButton: "IYA",
     noButton: "TIDAK",
     noEscapeTexts: ["Eitss, nda bisa😝", "Hihi, dibilangin ngeyel si😜", "Yaudah deh, aku anggap YES ya!❤️"],
     confirmTitle: "YEAAAY! MAUU, makasih ya😽❤️",
     confirmText: "Mulai dari sekarang kamu resmi jadi…",
-    badgeText: "💕 KESAYANGAN AKU 💕",
+    badgeText: "KESAYANGAN AKU",
     nextButton: "Lanjut ",
     repeatButton: "Ulangi pertanyaan",
     flowerTitle: "Ini HADIAH spesial buat kamu ",
@@ -367,6 +367,7 @@ document.addEventListener('DOMContentLoaded', () => {
     new ParticleSystem();
     initMouseTrail();
 });
+
 
 
 
