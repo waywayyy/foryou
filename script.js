@@ -9,7 +9,7 @@ const CONFIG = {
     badgeText: "KESAYANGAN AKU",
     nextButton: "Lanjut ",
     repeatButton: "Ulangi pertanyaan",
-    flowerTitle: "Ini HADIAH spesial buat kamu ",
+    flowerTitle: "Ini HADIAH spesial untuk WANITA yg spesial bagiku ><",
     takeBouquetButton: "Terima hadiahnya ",
     bouquetMessage: "Yeay! Hadiah ini udh resmi milik kamu ❤️",
     nextFlowerButton: "lanjut ",
@@ -367,6 +367,7 @@ document.addEventListener('DOMContentLoaded', () => {
     new ParticleSystem();
     initMouseTrail();
 });
+
 
 
 
