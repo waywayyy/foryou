@@ -18,9 +18,9 @@ const CONFIG = {
     nextCollageButton: "Satu halaman lagi… ",
     finalTitle: "Happy Valentine, Cintakuu ❤️",
     finalMessage: `Makasih ya udah hadir dan bikin hariku selalu terasa cukup. Kamu adalah alasan kenapa hariku harus selalu ceria. I know, aku bukan cinta pertama kamu tapi yang selalu aku bilang, aku mau kalo diri aku bisa menjadi cinta yang terakhir buat kamu dan juga selalu bisa membuat kamu merasa cukup dengan aku. Semoga harimu selalu penuh dengan kebahagiaan dan kehangatan disetiap waktu. Aku akan selalu mencoba jadi manusia terbaik yg hadir dihidup kamu dari yang sebelum-sebelumnya. Meskipun saat ini kita berjauhan, aku juga akan mencoba untuk selalu ada buat kamu. Semoga kita selalu bisa bersama selamanya ya❤️. Sekali lagi, Selamat Hari Kasih Sayang My loveee, Emmuachhh💋❤️`,
-    restartButton: "Restart ",
-    copyButton: "Copy Message ",
-    copySuccess: "Pesan berhasil dicopy! "
+    restartButton: "Ulangi ",
+    copyButton: "Save pesan ",
+    copySuccess: "Pesan berhasil disave! "
 };
 
 const state = { currentPage: 1, hasClickedYes: false, noClickCount: 0, bouquetTaken: false, musicPlaying: false, photos: [null, null, null, null] };
@@ -367,6 +367,7 @@ document.addEventListener('DOMContentLoaded', () => {
     new ParticleSystem();
     initMouseTrail();
 });
+
 
 
 
