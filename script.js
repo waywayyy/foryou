@@ -1,31 +1,26 @@
 const CONFIG = {
-    mainQuestion: "Will you be my Valentine?",
-    subQuestion: "Please say yes ",
-    yesButton: "YES",
-    noButton: "NO",
-    noEscapeTexts: ["ga bisa wlee😜", "hehehe coba lagi 😜", "Yaudah dehh, aku anggap YES yaaa! 💕"],
-    confirmTitle: "YEYYY! Kamu Beneran Mauu 💗",
-    confirmText: "Berarti sekarang kamu jadiii…",
-    badgeText: "My Valentine",
+    mainQuestion: "Mau kah kamu menerima maafku karna telat mengucapkan hari kasih sayang ini?:)",
+    subQuestion: "Aku mohon, kamu pilih YA ",
+    yesButton: "YA",
+    noButton: "GAK",
+    noEscapeTexts: ["Eitss, nda bisa 😝", "Hihi, masih ngeyel juga 😜", "Yaudah dehh, aku anggap kamu pilih YA! ❤️"],
+    confirmTitle: "YEYYY! Kamu Mau, Makasih Ya 💋",
+    confirmText: "Berarti sekarang kamu resmi jadiii…",
+    badgeText: "KESAYANGAN AKU",
     nextButton: "Lanjut ",
     repeatButton: "Ulangi pertanyaan",
-    flowerTitle: "Ini kado spesial buat kamuu ",
+    flowerTitle: "Ini ada hadiah spesial untuk wanita yang juga spesial bagiku xixi >< ",
     takeBouquetButton: "Terima hadiahnya ",
-    bouquetMessage: "Yeay! Udah jadi milik kamuu 💕",
-    nextFlowerButton: "Next ",
-    collageTitle: "Happy Valentine My Beautiful Girl",
-    collageSubtitle: "Sejak kamu hadir, hal sederhana itu terasa istimewa. Happy Valentine, My favorite person. 💕",
-    nextCollageButton: "Satu halaman lagi… ",
-    finalTitle: "Happy Valentine, My Love 💞",
-    finalMessage: `Makasih ya sudah hadir dan bikin aku deserve to be loved. You mean so much
-                    for me.I may not be the first you loved, the first who made your heart race, or the first who made you believe
-                    in love, but i want to be the one who stays when everything else fades. Orang yang bisa membuktikan kalau
-                    cinta can still be gentle, true and lasting. Aku mungkin bukan yang pertama buat kamu,
-                    tapi aku mau jadi punyamu selamanya.💕 Semoga hari hari-hari kamu selalu penuh kehangatan dan 
-                    kebahagiaan. Aku selalu ada buat kamu sayangg. Happy Valentine!!!`,
-    restartButton: "Restart ",
-    copyButton: "Copy Message ",
-    copySuccess: "Pesan berhasil dicopy! "
+    bouquetMessage: "Yeay! Hadiah ini udah jadi milik kamuu ❤️",
+    nextFlowerButton: "Lanjut ya ",
+    collageTitle: "Selamat Hari Kasih Sayang Cantiknya Aku 🥰💋",
+    collageSubtitle: "Sejak kamu hadir, duniaku jadi lebih berwarna setiap harinya. Selamat Hari Kasih Sayang My favorite person ❤️",
+    nextCollageButton: "Satu halaman lagi nih… ",
+    finalTitle: "Selamat Hari Kasih Sayang cintaku 💞",
+    finalMessage: `Makasih ya udah hadir dan bikin hariku selalu terasa cukup. Kamu adalah alasan kenapa hariku harus selalu ceria. I know, aku bukan cinta pertama kamu tapi yang selalu aku bilang, aku mau kalo diri aku bisa menjadi cinta yang terakhir buat kamu dan juga selalu bisa membuat kamu merasa cukup dengan aku. Semoga harimu selalu penuh dengan kebahagiaan dan kehangatan disetiap waktu. Aku akan selalu mencoba jadi manusia terbaik yg hadir dihidup kamu dari yang sebelum-sebelumnya. Meskipun saat ini kita berjauhan, aku juga akan mencoba untuk selalu ada buat kamu gimanapun caranya. Semoga kita selalu bisa bersama selamanya ya ❤️. Sekali lagi, Selamat Hari Kasih Sayang My loveee, Emmuachhh💋❤️`,
+    restartButton: "Ulangi ",
+    copyButton: "Save pesan ",
+    copySuccess: "Pesan berhasil disave! "
 };
 
 const state = { currentPage: 1, hasClickedYes: false, noClickCount: 0, bouquetTaken: false, musicPlaying: false, photos: [null, null, null, null] };
@@ -372,3 +367,4 @@ document.addEventListener('DOMContentLoaded', () => {
     new ParticleSystem();
     initMouseTrail();
 });
+
