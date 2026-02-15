@@ -16,7 +16,7 @@ const CONFIG = {
     collageTitle: "Selamat hari kasih sayang, kesayanganku ❤️",
     collageSubtitle: "Sejak kamu hadir, duniaku jadi lebih berwarna setiap harinya. Selamat Hari Kasih Sayang My favorite person ❤️",
     nextCollageButton: "Satu halaman lagi… ",
-    finalTitle: "Happy Valentine, Cintakuu ❤️",
+    finalTitle: "Selamat hari kasih sayang, cintaku ❤️",
     finalMessage: `Makasih ya udah hadir dan bikin hariku selalu terasa cukup. Kamu adalah alasan kenapa hariku harus selalu ceria. I know, aku bukan cinta pertama kamu tapi yang selalu aku bilang, aku mau kalo diri aku bisa menjadi cinta yang terakhir buat kamu dan juga selalu bisa membuat kamu merasa cukup dengan aku. Semoga harimu selalu penuh dengan kebahagiaan dan kehangatan disetiap waktu. Aku akan selalu mencoba jadi manusia terbaik yg hadir dihidup kamu dari yang sebelum-sebelumnya. Meskipun saat ini kita berjauhan, aku juga akan mencoba untuk selalu ada buat kamu. Semoga kita selalu bisa bersama selamanya ya❤️. Sekali lagi, Selamat Hari Kasih Sayang My loveee, Emmuachhh💋❤️`,
     restartButton: "Ulangi ",
     copyButton: "Save pesan ",
@@ -367,6 +367,7 @@ document.addEventListener('DOMContentLoaded', () => {
     new ParticleSystem();
     initMouseTrail();
 });
+
 
 
 
